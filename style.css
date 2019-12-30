@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(149, 64, 228);
+}
+#header-nav{
+    background: rgb(73, 73, 73);
+}
+.navbar-brand{
+    float: left;
+}
+#logo{
+    font-size: 2.4em;
+    font-family: 'Lobster', cursive;
+    color: rgba(245, 245, 245, 0.842);
+}
+#logo_link:hover , #logo_link:focus{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#logo:hover , #logo:focus{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.navbar-toggle{
+    height: 40px;
+    width: 50px;
+    background: rgb(73, 73, 73);
+    border: 2px solid rgba(245, 245, 245, 0.842);
+    border-radius: 10%;
+}
+.icon-bar{
+    display: block;
+    height: 3px;
+    margin: 5px;  
+    position: relative;
+    transform: translate(-12%);
+    width: 88%;
+    text-align: center;
+    background: rgba(245, 245, 245, 0.842);
+}
+#collapsable-nav{
+    background-color: rgb(226, 226, 226);
+    color: rgb(73, 73, 73);
+    font-family: sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    list-style-type: none;
+    line-height: 50px;
+}
+
+#Menu{
+    margin-top: 60px;
+    font-size: 3.6em;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(0, 0, 0);
+
+
+}
+#content{
+    margin-top: 70px;
+}
+#box1{
+    background: rgb(211, 211, 211);
+}
+#box2{
+    background: rgb(184, 184, 184);
+}
+#box3{
+    background: rgb(114, 114, 114);
+}
+.data{
+    margin-top: 20px;
+}
+
+#top{
+    float: right;
+}
+
+#subheads{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    margin-top: 10%;
+}
+
+
+@media only screen and (min-width: 576px)
+{
+    .navbar-toggle{
+        opacity: 0;
+    }
+}
